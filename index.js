@@ -18,7 +18,7 @@ app.use('/posts', postRoutes);
 app.get('/', (req, res) => {
     res.send('Hello to blog app\'s API');
 })
-
+//hello
 // http://www.mongodb.com/cloud/atlas
 const PORT = process.env.PORT || 5000;
 // returns a promise
